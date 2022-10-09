@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Forest</title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <span class="status-bar">
+        <span class="status-bar__clock"></span>
+        <span class="status-bar__weatherinfo"></span>
+      </span>
+      <form id="login-form" class="hidden">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input type="submit" value="login" />
+      </form>
+      <span id="greeting-span" class="hidden">
+        <h1 id="greeting"></h1>
+      </span>
+      <form id="todo-form">
+        <span class="user-bar">
+          <input
+            type="text"
+            placeholder="Write a To Do and Press Enter"
+            required
+          />
+          <input type="submit" class="user-bar__todo" value="Todo" />
+          <ul id="todo-list"></ul>
+        </span>
+      </form>
+    </div>
+    <header class="header-bar">
+      <h1 class="header-bar__title">Little Forest</h1>
+      <h5 class="header-bar__subtitle"></h5>
+    </header>
+    <footer class="weather-bar">
+      <span class="weather__text"></span>
+    </footer>
+    <script src="src/background.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/index.js"></script>
+    <script src="src/todo.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&family=Noto+Serif+KR:wght@300;400&family=Qwitcher+Grypen&family=Sassy+Frass&family=Tajawal:wght@300&display=swap');
+
+.hidden {
+  display: none;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    }
+
+  .top-bar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px;
+    align-items: center;
+    font-family: 'Tajawal', sans-serif;
+  }
+
+  .status-bar span{
+    display: block;
+  
+  }
+
+  .status-bar__clock{
+    font-size: 60px;
+    text-shadow: 2px 2px 2px rgb(190,190,177,0.8);
+  }
+  .status-bar__weatherinfo{
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(190,190,177,0.8);
+    
+  }
+
+  .weather__text{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 80px;
+        font-family: 'Noto Serif JP', serif;
+        text-shadow: 2px 2px 2px rgb(190,190,177,0.5);
+    }
+
+    .user-bar {
+        margin-top: 10px;   
+       
+    }
+    .user-bar input,#login-form input,#greeting-span{
+        padding: 8px;
+        border-radius: 30px;
+        border: none;
+        font-size: 15px;
+    }
+
+    #login-form input{
+      margin-left:10px;
+    }
+
+    .user-bar span{
+      margin-top: 30px;
+    }
+
+    #greeting{
+      font-size: 25px;
+    }
+
+ 
+    .header-bar{
+        margin-top: 100px ;
+        text-align: center;
+    }
+
+  .header-bar__title{
+    padding-top: 50px;
+    font-family: 'Sassy Frass', cursive;
+    font-size: 200px;
+  }
+
+  .header-bar__subtitle{
+    font-family: 'Noto Serif KR', serif;
+    font-size: 20px;
+    font-weight: 400;
+
+  }
+.weather-bar{
+  float: right;
+  margin-top: 150px;
+  margin-right: 20px;
+}

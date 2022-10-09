@@ -1,0 +1,31 @@
+@import "../style.css";
+
+    img{
+        opacity: 70%;
+    }
+  .status-bar__clock{
+    color: #fffaf3;
+  }
+  .status-bar__weatherinfo{
+    color:#c4ad84; 
+  }
+
+  .weather__text{
+        color:#d1cfc3;
+    }
+
+    .user-bar span,input,#greeting-span{
+        background-color:#fffaf3;
+        color: #c4ad84;
+    }
+
+
+
+.header-bar__title{
+    color:#A2A48D;
+    text-shadow: 2px 2px 2px rgb(116, 112, 112,0.7);
+  } 
+
+  .header-bar__subtitle{
+    color:#bda082;
+  }
